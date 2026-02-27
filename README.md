@@ -2,64 +2,68 @@
 A real-world inspired salary dataset for practicing data analysis, visualization, and machine learning techniques.
 # 📊 Salary Dataset
 
-## 📌 Overview
-This repository contains a salary dataset with information on employee demographics, education, job roles, work experience, and annual salary. The dataset is suitable for **data analysis, visualization, and machine learning tasks**, especially those related to income prediction and workforce analytics.
+## 📌 Project Overview
+This project demonstrates **Single Variable Linear Regression** using a salary dataset to analyze and predict employee salary based on **Years of Experience**. The goal is to understand the linear relationship between experience and income and build a simple predictive model.
 
-The data combines numerical and categorical features, making it ideal for practicing data preprocessing, feature engineering, and regression modeling.
-
----
-
-## 📁 Dataset Information
-
-- **File name:** `Salary Data.csv`
-- **Number of records:** 375
-- **Number of features:** 6
-- **Data type:** Tabular (CSV)
+This project is ideal for learning the fundamentals of regression, model evaluation, and data visualization.
 
 ---
 
-## 🧾 Feature Description
+## 📁 Dataset Description
 
-| Column Name | Description |
-|------------|-------------|
-| **Age** | Age of the employee in years |
-| **Gender** | Gender of the employee |
-| **Education Level** | Highest level of education achieved |
-| **Job Title** | Current job position |
-| **Years of Experience** | Total years of professional experience |
-| **Salary** | Annual salary of the employee |
+- **Dataset:** Salary Data
+- **Target Variable (Y):** Salary
+- **Independent Variable (X):** Years of Experience
+- **Total Records:** 375
+- **File Format:** CSV
 
 ---
 
-## 🎯 Use Cases
-This dataset can be used for:
+## 🔍 Problem Statement
+> Can an employee’s salary be predicted using only their years of professional experience?
 
-- Exploratory Data Analysis (EDA)
-- Salary prediction using regression models
-- Studying the impact of education and experience on income
-- Gender-based salary analysis
-- Feature engineering and preprocessing practice
-- Machine learning model evaluation
+To answer this, a **simple linear regression model** is trained and evaluated.
 
 ---
 
-## 🧹 Data Characteristics
-- Contains both **categorical** and **numerical** variables
-- Suitable for encoding techniques (One-Hot Encoding, Label Encoding)
-- Can be scaled and normalized for machine learning models
-- No complex hierarchical or time-series data
+## 📊 Features Used
+
+| Variable | Description |
+|--------|-------------|
+| **Years of Experience** | Independent variable used for prediction |
+| **Salary** | Dependent variable (target) |
+
+All other features in the dataset are intentionally excluded to maintain a **single-variable regression** approach.
 
 ---
 
-## 📊 Example Analyses
-Some possible analyses include:
-- Correlation between years of experience and salary
-- Salary distribution by education level
-- Job role vs salary comparison
-- Gender-based salary trends
-- Predictive modeling using Linear Regression, Random Forests, or XGBoost
+## 🧠 Methodology
+1. Load and inspect the dataset  
+2. Select **Years of Experience** as the independent variable  
+3. Perform train-test split  
+4. Train a Single Variable Linear Regression model  
+5. Evaluate model performance  
+6. Visualize the regression line  
 
 ---
 
+## 📐 Model Used
+- **Algorithm:** Linear Regression  
+- **Type:** Supervised Learning  
+- **Category:** Regression  
 
+---
 
+## 📈 Evaluation Metrics
+The model performance can be evaluated using:
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R² Score
+
+---
+
+## 📊 Visualization
+The project includes visualizations such as:
+- Scatter plot of Years of Experience vs Salary
+- Regression line showing predicted salary trend
