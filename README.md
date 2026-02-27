@@ -61,9 +61,5 @@ Some possible analyses include:
 
 ---
 
-## 🚀 Getting Started
 
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/your-username/salary-dataset.git
-cd salary-dataset
+
